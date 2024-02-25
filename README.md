@@ -15,6 +15,8 @@ PROGRAMIN YAPABİLDİKLERİ
 
 ÖNEMLİ NOT!!!
  Program sadece Türkiye serveri için yazılmıştır. Test edecek kişi aşağıdaki  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!! kısmını yaptıktan sonra "START" tuşu ile çalıştırabilir. 
+ "PREPARE FISHING" butonu buradaki yüklü kodda kaldırılmıştır. Ben test amaçlı kullanıyordum.
+ "DEFINE SCREEN" butonu nesnelerin bilgisayar ekranındaki tıklanan yerin koordinat değerini dönmesini sağlar. Böylece resmini kaydettiğim resimlerden gerekli koordinatları kullanıp, istenilen resmi kaydediyorum.
 
  PROGRAMIN asıl amacı görüntü işleme mantığını öğrenmektir. 3 taraf yazılım kullanmak METİN2 tarafından izin VERİLMEMEKTEDİR ve kullanım sonucu oyundaki hesabınız ENGELLENİR!!!. 
 
