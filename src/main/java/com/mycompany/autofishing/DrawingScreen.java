@@ -79,7 +79,7 @@ public class DrawingScreen extends JComponent
         if(rectClickedArea != null)
         {
            //rectClickedArea = new Rectangle(rectClickedArea.x,rectClickedArea.y,10,rectClickedArea.height);
-           rectClickedArea = gameObjCoor.getRectMetin2Icon();
+           //rectClickedArea = gameObjCoor.getRectMetin2Icon();
             g2.setColor(Color.red);
             g2.draw(rectClickedArea);
         }
