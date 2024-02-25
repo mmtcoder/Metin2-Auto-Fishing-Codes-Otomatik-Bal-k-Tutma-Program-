@@ -9,8 +9,12 @@ Program görüntü ekran kaydı alma mantığıyla yapılmıştır ve alınan g�
 
  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!!
  1.Mutlaka Balıkçılık Klavuzu Takılı Olmalı.
+ 
  2.Mutlaka Olta Takılı Olmalı.
+ 
  3.Metin2 ve Balık Tutma Programı Üst Üste olmamalı.
+ 
  4.Balıkçının olduğu köprüde karakter durmalı ve balıkçı karakterin arkasında kalmalı.
+ 
  5.Karatkerin bakış açısı denize doğru olması daha iyi olur.
  
