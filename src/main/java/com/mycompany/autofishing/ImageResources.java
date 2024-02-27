@@ -194,7 +194,7 @@ public class ImageResources
 
     public ImageResources()
     {
-        System.out.println("ImageResources is written");
+
          thisGameObjCoord = new GameObjectCoordinates();
         tempBuffer= readImage(pathFish);
         fishArray = new int[tempBuffer.getWidth()* tempBuffer.getHeight()];
@@ -278,7 +278,9 @@ public class ImageResources
         fishThirdPixel = 3299708; //top
         fishFourthPixel =3890296; //bottom
         fishFifthPixel = 3824763; //middle
-  
+
+        System.out.println("ImageResources is written");
+
     }
 
      public int[] transferBufferImgtoARGB(BufferedImage bufImg) {
@@ -346,6 +348,7 @@ public class ImageResources
 
         //This try for running as exe or jar file 
         try {
+
              return ImageIO.read((getClass().getClassLoader().getResource(path)));
             
         } catch (IOException |IllegalArgumentException |NullPointerException ex) {

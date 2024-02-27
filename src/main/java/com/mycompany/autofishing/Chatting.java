@@ -7,11 +7,17 @@ import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.security.CodeSource;
 import java.sql.Time;
 import java.util.Date;
 import java.util.Objects;
 import java.util.TimeZone;
 import java.util.Timer;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
+import java.util.zip.ZipInputStream;
 
 public class Chatting 
 {
@@ -40,9 +46,9 @@ public class Chatting
         coordinates = new GameObjectCoordinates();
         this.fishingProcess = fishingProcess;
 
-        FILE_CHAT_PNG = getFilesFromWantedFolder(pathChatpng);
-        BUFFER_IMAGE_CHAT = getBufImagesFromFiles(FILE_CHAT_PNG);
-        ARRAYS_CHAT_RGB = initializeChatRgbArrays(getBufImagesFromFiles(getFilesFromWantedFolder(pathChatpng)));
+        //FILE_CHAT_PNG = getFilesFromWantedFolder(pathChatpng);
+        BUFFER_IMAGE_CHAT = getBufImagesFromFiles(pathChatpng);
+        ARRAYS_CHAT_RGB = initializeChatRgbArrays(getBufImagesFromFiles(pathChatpng));
         ARRAYS_BOOL_SOURCE = new boolean[ARRAYS_CHAT_RGB.length][];
         for(int i=0; i < ARRAYS_CHAT_RGB.length; i++)
         {
@@ -96,53 +102,113 @@ public class Chatting
 
     }
 
-    public File[] getFilesFromWantedFolder(String folderPathName)
+public BufferedImage[] getBufImagesFromFiles(String folderPathName)
+{
+    File folder = null;
+    File[] files = null;
+    BufferedImage[] bufferedImages =null;
+    int bufferCounter =0;
+    int counter =0;
+    try
     {
-        File folder = new File(folderPathName);
-        File[] files = new File[folder.listFiles().length];
-        int counter =0;
+        folder = new File(folderPathName);
+        files = new File[folder.listFiles().length];
+        bufferedImages = new BufferedImage[files.length];
+
         for (final File fileEntry : folder.listFiles()) {
             if (fileEntry.isDirectory()) {
-                getFilesFromWantedFolder(fileEntry.getPath());
+                //getFilesFromWantedFolder(fileEntry.getPath());
+                System.out.println("Skip the directory...");
             } else {
-               // System.out.println(fileEntry.getName());
+                // System.out.println(fileEntry.getName());
                 files[counter++] = fileEntry;
             }
         }
-    return files;
-
-}
-public BufferedImage[] getBufImagesFromFiles(File [] files)
-{
-    BufferedImage[] bufferedImages = new BufferedImage[files.length];
-    int counter =0;
-    for(final File file: files)
-    {
-        try {
-
-            bufferedImages[counter++] =  ImageIO.read((getClass().getClassLoader().getResource(file.getPath())));
-        } catch (IOException |IllegalArgumentException |NullPointerException ex ) 
+        bufferCounter =0;
+        for( final File file2: files)
         {
-             counter =0;
-             for( final File file2: files)
-        {
-             try
+            try
             {
                 //System.out.println("file path = " + file2.getPath());
-                bufferedImages[counter++] = ImageIO.read(file2);
-                 
+                bufferedImages[bufferCounter++] = ImageIO.read(file2);
+
             }
             catch(IOException e)
             {
                 System.out.println(e);
-                 return null;
+                return null;
             }
-               
-         }
-             break;
+
         }
-        
+
+    }
+    catch (NullPointerException ex)
+    {
+        CodeSource src = Chatting.class.getProtectionDomain().getCodeSource();
+        if (src != null) {
+            URL jar = src.getLocation();
+            ZipInputStream zip = null;
+            try {
+                int sizeOfWantedFile =0;
+
+                zip = new ZipInputStream(jar.openStream());
+                while (true) {
+                    ZipEntry e = zip.getNextEntry();
+
+                    if (e == null)
+                    {
+                        //System.out.println("ZipEntry is null");
+                        break;
+                    }
+
+                    String name = e.getName();
+                    // System.out.println("name = " + name);
+                    if (name.startsWith(folderPathName)) {
+
+                        sizeOfWantedFile++;
+                        }
+
+                }
+
+                bufferedImages = new BufferedImage[sizeOfWantedFile];
+
+                zip = new ZipInputStream(jar.openStream());
+                while (true) {
+                    ZipEntry e = zip.getNextEntry();
+
+                    if (e == null)
+                    {
+                        //System.out.println("ZipEntry is null");
+                        break;
+                    }
+
+                    String name = e.getName();
+                    // System.out.println("name = " + name);
+                    if (name.startsWith(folderPathName)) {
+
+                        try {
+
+                            bufferedImages[bufferCounter++] =  ImageIO.read((getClass().getClassLoader().getResource(name)));
+                        } catch (IOException |IllegalArgumentException |NullPointerException exception )
+                        {
+                            System.out.println("Hata var");
+                            return null;
+                        }
+                    }
+
+                }
+
+            } catch (IOException a) {
+
+                throw new RuntimeException(a);
+            }
+
         }
+    }
+
+
+
+
     
     return bufferedImages;
 }
