@@ -4,6 +4,12 @@ Metin2 Otomatik Balık Tutma
 Java Programı ile yazılmıştır. Sadece 1 oyun hesabını destekler.
 Program görüntü ekran kaydı alma mantığıyla yapılmıştır ve alınan görüntü işlenerek gerekli işlemler yapılmıştır.
 
+/********* Eğer yazılımcı değilseniz yada kodları kurmayı uğraşmadan çalıştırmak isteyenler
+
+https://drive.google.com/file/d/1iiLlrY_K4BTo8POJdaIhR7LqOWZVLsK_/view?usp=drive_link
+
+linkten sadece WİNDOWS işletim sistemi için setup kurulum yapıp YÖNETİCİ OLARAK ÇALIŞTIR yaparak test edebilirsiniz*******////
+
 PROGRAMIN YAPABİLDİKLERİ
 - Yabbie, Altın Sudak, Kurbağa ve Palamut Balıkları Tutma ve Yakma
 - Karakter öldüğünde Kanal Değiştirme
