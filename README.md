@@ -27,6 +27,8 @@ PROGRAMIN YAPABİLDİKLERİ
  PROGRAMIN asıl amacı görüntü işleme mantığını öğrenmektir. 3 taraf yazılım kullanmak METİN2 tarafından izin VERİLMEMEKTEDİR ve kullanım sonucu oyundaki hesabınız ENGELLENİR!!!. 
 
  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!!
+
+ @@@@@@@ Yazılımcılar için Hangi IDE kullanıyor iseniz başlatırken mutlaka YÖNETİCİ OLARAK ÇALIŞTIR yapmalısınız   @@@@@@@@@@@
  
  1.Mutlaka Balıkçılık Klavuzu Takılı Olmalı.
  
