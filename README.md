@@ -25,12 +25,14 @@ PROGRAMIN YAPABİLDİKLERİ
  1.Mutlaka Balıkçılık Klavuzu Takılı Olmalı.
  
  2.Mutlaka Olta Takılı Olmalı.
+
+ 3.Mutlaka Envanterin 1. ve 2. sayfanın en sol üst kısmına ve karakterin üstünde zırh olmalı (Toplam 3 adet zırh)
  
- 3.Metin2 ve Balık Tutma Programı Üst Üste olmamalı.
+ 4.Metin2 ve Balık Tutma Programı Üst Üste olmamalı.
  
- 4.Balıkçının olduğu köprüde karakter durmalı ve balıkçı karakterin arkasında kalmalı.
+ 5.Balıkçının olduğu köprüde karakter durmalı ve balıkçı karakterin arkasında kalmalı.
  
- 5.Karatkerin bakış açısı denize doğru olması daha iyi olur.
+ 6.Karatkerin bakış açısı denize doğru olması daha iyi olur.
 
 ![yabbie](https://github.com/mmtcoder/Metin2-Auto-Fishing-Codes-Otomatik-Bal-k-Tutma-Program-/assets/40866163/4f11e94c-a452-46d2-88f1-22b5b1dec850)
 
