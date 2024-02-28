@@ -26,6 +26,15 @@ PROGRAMIN YAPABİLDİKLERİ
 - Solucan alıp slotlara dizme
 - Oyundan atıldığı zaman heseba otomatik girme(gameforge simgesi sadece görev çubuğunda olmalı ve sadece balık tutan hesabın açık olması gerekir.)
 
+!!! ŞAŞIRMAMANIZ GEREKEN SENARYOLAR !!!!
+-Program Solucanların konulduğu slot yerlerinde solucan olup olmadığı kontrol eder. Eğer ilk yada son dört slot boşluğunda hiç solucan kalmamış ise karakter atar(Oyun kasma problemlerini önlemek için).Eğer programı başlatırken hiç dizili solucan yok ise karakter ard arda 8 kez (çünkü 4 slot sayfasına da bakıyor) ve ondan sonra BALIKÇIYA gidip oradan ilk kamp ataşini satın alır.Eğer yakılacak hiç balık yok ise tekrar balıkçı sayfasını açıp solucanları alıp dizer,
+-Küçük haritadan birisini görür ise program gerçek kişi olduğu hissi vermek amaçlı otomatik olarak "kg reis ", "iyi oyunlar" gibi otomatik olarak chatten mesaj yazar.Bu sırada biraz balık tutma hızı bilerek yavaşlatılır... Eğer karşı taraf mesaj yazar ve onun mesajını anlayacak herhangi programda kayıtlı kelime yok ise " şu an balık tutmaya konstentreyim bu yüzden...." gibi muhabbetin fazla uzamaması için kestirme cevap verir :)(Yazılımcı olanlar Chatting sınıfında bu kodlamalar yapılmıştır sizde kafanıza göre cevapları değiştirip veya ona göre ekleyebilirsiniz.)
+-Eğer haritadaki başka oyuncu belirlene süreden (ben 2 dakika diye yazmıştım) fazla duruyor ise sizin karakter "ben cıkıyorum iyi oyunlar" gibi mesaj yazıp CH değiştirir.
+-Eğer balık tutar iken sizi NPC veya başka oyuncu öldürür ise otomatik olarak CH değişir.
+
+^^^^^^^^ EĞER PROGRAM BUGTA KALIR İSE ^^^^^^^^^^^^
+@@ Elbette ben şu an  programı geliştirmiyorum ama program % 90 civarlarında hatasız çalışıyor.Olduki herhangi yanlış davranış( Örneğin balık TUTMAMASI veya haritada bir yere sadece sık aralıklar ile tıklama yapması gibi ) durumlarında yapabiliyor iseniz ALT - TAB ile programa geçip hemen F4 tuşuna basarsanız programı KAPATABİLİRSİNİZ. Eğer YAPAMIYORSANIZ bilgisayarın DÜĞMESİNDEN kapatmanız gerekir.
+@@ Program Start tuşuna basılarak Stop konumuna getirilebilir ama program yazılırken 3 ayrı Thread kullanılmıştır.Eğer bunlardan biri sonlanmaz ise Start butonu basılamaz hale gelir ve 7 saniyeden fazla bu halde TAKILI KALIR ise çarpı tuşundan programı kapatmanız gerekir.
 
 ÖNEMLİ NOT!!!
  Program sadece Türkiye serveri için yazılmıştır. Test edecek kişi aşağıdaki  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!! kısmını yaptıktan sonra "START" tuşu ile çalıştırabilir. 
