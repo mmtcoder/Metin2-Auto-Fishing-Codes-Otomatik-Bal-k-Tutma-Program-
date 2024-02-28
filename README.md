@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1iiLlrY_K4BTo8POJdaIhR7LqOWZVLsK_/view?usp=drive
 
 linkten sadece WİNDOWS işletim sistemi için setup kurulum yapıp YÖNETİCİ OLARAK ÇALIŞTIR yaparak test edebilirsiniz***********/
 
-<<<<<< Eğer program test ettikten sonr MEMNUN kalırsanız YILDIZ bırakmayı unutmayın >>>>>>>>>>>>>>>
+<<<<<< Eğer program test ettikten sonra MEMNUN kalırsanız YILDIZ bırakmayı unutmayın >>>>>>>>>>>>>>>
 
 PROGRAMI TEST ETMENİZ İÇİN BİLGİSAYARDA OLMASI GEREKEN İDEAL ÖZELLİKLER
 - En az 2.80 Ghz işlemci(Altı olsada tutar ama balık tutma sayısı işlemci hızına göre çok değişkenlik gösterir..)
