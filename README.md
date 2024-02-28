@@ -9,7 +9,8 @@ Program görüntü ekran kaydı alma mantığıyla yapılmıştır ve alınan g�
 
 https://drive.google.com/file/d/1iiLlrY_K4BTo8POJdaIhR7LqOWZVLsK_/view?usp=drive_link
 
-linkten sadece WİNDOWS işletim sistemi için setup kurulum yapıp YÖNETİCİ OLARAK ÇALIŞTIR yaparak test edebilirsiniz***********/
+linkten sadece WİNDOWS işletim sistemi için setup kurulum yapıp YÖNETİCİ OLARAK ÇALIŞTIR yaparak test edebilirsiniz
+Eğer yukarıdaki hazır programı kullanacaklar, daha önce MINECRAFT gibi Java gereken oyun kurmadıysanız MUTLAKA JRE kurulumu yapmanız GEREKİR. İnternete "JRE Download" yazarak indirip gerekli kurulumu yapbalirisiniz oldukça KOLAYDIR internette bolca KURULUM VİDEOLARI mevcuttur. ***********/
 
 <<<<<< Eğer program test ettikten sonra MEMNUN kalırsanız YILDIZ bırakmayı unutmayın >>>>>>>>>>>>>>>
 
