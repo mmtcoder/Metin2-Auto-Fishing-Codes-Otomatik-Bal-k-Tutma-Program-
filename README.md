@@ -38,7 +38,9 @@ PROGRAMIN YAPABİLDİKLERİ
 -Eğer balık tutar iken sizi NPC veya başka oyuncu öldürür ise otomatik olarak CH değişir.
 
 ^^^^^^^^ EĞER PROGRAM BUGTA KALIR İSE ^^^^^^^^^^^^
+
 @@ Elbette ben şu an  programı geliştirmiyorum ama program % 90 civarlarında hatasız çalışıyor.Olduki herhangi yanlış davranış( Örneğin balık TUTMAMASI veya haritada bir yere sadece sık aralıklar ile tıklama yapması gibi ) durumlarında yapabiliyor iseniz ALT - TAB ile programa geçip hemen F4 tuşuna basarsanız programı KAPATABİLİRSİNİZ. Eğer YAPAMIYORSANIZ bilgisayarın DÜĞMESİNDEN kapatmanız gerekir.
+
 @@ Program Start tuşuna basılarak Stop konumuna getirilebilir ama program yazılırken 3 ayrı Thread kullanılmıştır.Eğer bunlardan biri sonlanmaz ise Start butonu basılamaz hale gelir ve 7 saniyeden fazla bu halde TAKILI KALIR ise çarpı tuşundan programı kapatmanız gerekir.
 
 ÖNEMLİ NOT!!!
