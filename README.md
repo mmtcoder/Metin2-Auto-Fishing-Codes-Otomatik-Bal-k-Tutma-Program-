@@ -47,18 +47,20 @@ PROGRAMIN YAPABİLDİKLERİ
  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!!
 
  @@@@@@@ Yazılımcılar için Hangi IDE kullanıyor iseniz başlatırken mutlaka YÖNETİCİ OLARAK ÇALIŞTIR yapmalısınız   @@@@@@@@@@@
- 
- 1.Mutlaka Balıkçılık Klavuzu Takılı Olmalı.
- 
- 2.Mutlaka Olta Takılı Olmalı.
 
- 3.Mutlaka Envanterin 1. ve 2. sayfanın en sol üst kısmına ve karakterin üstünde zırh olmalı (Toplam 3 adet zırh)
+ 1.Oyun mutlaka 800x600 çözünürlük ve PENCERE modunda açılmalı.
  
- 4.Metin2 ve Balık Tutma Programı Üst Üste olmamalı.
+ 2.Mutlaka Balıkçılık Klavuzu Takılı Olmalı.
  
- 5.Balıkçının olduğu köprüde karakter durmalı ve balıkçı karakterin arkasında kalmalı.
+ 3.Mutlaka Olta Takılı Olmalı.
+
+ 4.Mutlaka Envanterin 1. ve 2. sayfanın en sol üst kısmına ve karakterin üstünde zırh olmalı (Toplam 3 adet zırh)
  
- 6.Karatkerin bakış açısı denize doğru olması daha iyi olur.
+ 5.Metin2 ve Balık Tutma Programı Üst Üste olmamalı.
+ 
+ 6.Balıkçının olduğu köprüde karakter durmalı ve balıkçı karakterin arkasında kalmalı.
+ 
+ 7.Karatkerin bakış açısı denize doğru olması daha iyi olur.
 
 ![yabbie](https://github.com/mmtcoder/Metin2-Auto-Fishing-Codes-Otomatik-Bal-k-Tutma-Program-/assets/40866163/4f11e94c-a452-46d2-88f1-22b5b1dec850)
 
