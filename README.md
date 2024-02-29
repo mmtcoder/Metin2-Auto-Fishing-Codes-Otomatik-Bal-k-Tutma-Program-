@@ -10,7 +10,7 @@ Program görüntü ekran kaydı alma mantığıyla yapılmıştır ve alınan g�
 https://drive.google.com/file/d/1UMcy3OD60LuToW0TcMjW40KbWZM6KGCS/view?usp=drive_link
 
 linkten zip dosyasını istediğiniz yere ayıklayıp "Mt2AutoFishingPublic.exe" programını "Yönetici olarak çalıştır" yaptıktan 3 5 saniye sonra program açılacak
-Eğer yukarıdaki hazır programı kullanacaklar, "Requires Java Runtime Environment" gibi hata alıyor iseniz MUTLAKA JRE kurulumu yapmanız GEREKİR. İnternete "JRE Download" yazarak indirip gerekli kurulumu yapbalirisiniz oldukça KOLAYDIR internette bolca KURULUM VİDEOLARI mevcuttur. ***********/
+Eğer yukarıdaki hazır programı kullanacaklar, "Requires Java Runtime Environment" gibi hata alıyor iseniz MUTLAKA JRE kurulumu yapmanız GEREKİR. İnternete "JRE Download" yazarak indirip gerekli kurulumu yapabalirisiniz oldukça KOLAYDIR internette bolca KURULUM VİDEOLARI mevcuttur. ***********/
 
 <<<<<< Eğer program test ettikten sonra MEMNUN kalırsanız YILDIZ bırakmayı unutmayın >>>>>>>>>>>>>>>
 
