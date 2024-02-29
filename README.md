@@ -20,7 +20,7 @@ PROGRAMI TEST ETMENİZ İÇİN BİLGİSAYARDA OLMASI GEREKEN İDEAL ÖZELLİKLER
 - İşletim sistemi Windows 8, Windows 10 ve Windows 11 DESTEKLER...
   
 PROGRAMIN YAPABİLDİKLERİ
-- Yabbie, Altın Sudak, Kurbağa ve Palamut Balıkları Tutma ve Yakma
+- SADECE Yabbie, Altın Sudak ve Palamut Balıkları(Kurbağa Sadece Tutuyor Yakması Ekli Değil) Tutma ve Yakma
 - Karakter öldüğünde Kanal Değiştirme
 - Haritadan geçen dost ve düşman(lisan yüzüğü olması gerek) ile selam ve bazı kelimeleri algılayıp konuşma.
 - Balıkçıdan kamp ataşi alıp yukarıdakileri balıkları yakma
