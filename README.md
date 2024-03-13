@@ -9,7 +9,7 @@ Program görüntü ekran kaydı alma mantığıyla yapılmıştır ve alınan g�
 
 https://drive.google.com/file/d/1UMcy3OD60LuToW0TcMjW40KbWZM6KGCS/view?usp=drive_link
 
-linkten zip dosyasını istediğiniz yere ayıklayıp "Mt2AutoFishingPublic.exe" programını "Yönetici olarak çalıştır" yaptıktan 3 5 saniye sonra program açılacak
+linkten zip dosyasını istediğiniz yere ayıklayıp "Mt2AutoFishingPublic.exe" programını "Yönetici olarak çalıştır" yaptıktan 3 5 saniye sonra program açılacak. Açılan ekranda Start butonuna basın ve START TUŞUNA BASTIKTAN 3 SANİYE İÇİNDE AÇIK OLAN HESABA BOŞ ALANA SAĞ TIK YAPARSANIZ program metin2 ye odaklanır ve çalışır.
 Eğer yukarıdaki hazır programı kullanacaklar, "Requires Java Runtime Environment" gibi hata alıyor iseniz MUTLAKA JRE kurulumu yapmanız GEREKİR. İnternete "JRE Download" yazarak indirip gerekli kurulumu yapabalirisiniz oldukça KOLAYDIR internette bolca KURULUM VİDEOLARI mevcuttur. ***********/
 
 <<<<<< Eğer program test ettikten sonra MEMNUN kalırsanız YILDIZ bırakmayı unutmayın >>>>>>>>>>>>>>>
@@ -44,7 +44,8 @@ PROGRAMIN YAPABİLDİKLERİ
 @@ Program Start tuşuna basılarak Stop konumuna getirilebilir ama program yazılırken 3 ayrı Thread kullanılmıştır.Eğer bunlardan biri sonlanmaz ise Start butonu basılamaz hale gelir ve 7 saniyeden fazla bu halde TAKILI KALIR ise çarpı tuşundan programı kapatmanız gerekir.
 
 ÖNEMLİ NOT!!!
- Program sadece Türkiye serveri için yazılmıştır. Test edecek kişi aşağıdaki  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!! kısmını yaptıktan sonra "START" tuşu ile çalıştırabilir. 
+ Program sadece Türkiye serveri için yazılmıştır. Test edecek kişi aşağıdaki  BAŞLAMADAN ÖNCE UYGULANMASI GEREKENLER!! kısmını yaptıktan sonra "START" tuşu ile çalıştırabilir.
+ START TUŞUNA BASTIKTAN 3 SANİYE İÇİNDE AÇIK OLAN HESABA BOŞ ALANA SAĞ TIK YAPARSANIZ program metin2 ye odaklanır ve çalışır.
  "PREPARE FISHING" butonu buradaki yüklü kodda kaldırılmıştır. Ben test amaçlı kullanıyordum.
  "DEFINE SCREEN" butonu nesnelerin bilgisayar ekranındaki tıklanan yerin koordinat değerini dönmesini sağlar. Böylece resmini kaydettiğim resimlerden gerekli koordinatları kullanıp, istenilen resmi kaydediyorum.
 
